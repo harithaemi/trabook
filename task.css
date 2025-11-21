@@ -9,7 +9,7 @@ body {
 }
 .herosection {
 
-    background-color: #faf5f3;
+    background-color: #FEFCFB;
    
     width: auto;
     height: auto;
@@ -82,6 +82,7 @@ font-size: larger;
 }
 .content {
     width: 520px;
+ 
 
 }
 .title { 
@@ -90,15 +91,16 @@ font-size: 64px;
 font-weight: 200;
 }
 .picture {
-     width: 700px;
+     width: 50%;
      height:  550px;
       position: relative; 
-         max-width: 500px;
+         max-width: auto;
+         padding: 0 50px;
       
     overflow: hidden;
 }
 .bannerman {
-    width: 500px;
+    width: auto;
       position: absolute;
 }
 .bgplane {
@@ -150,6 +152,10 @@ margin-bottom: 50px;
  justify-content: space-between;
     width: 800px;
     margin: 150px auto 50px auto;
+box-shadow: 12px 12px 24px -2px rgba(0,0,0,0.11);
+-webkit-box-shadow: 12px 12px 24px -2px rgba(0,0,0,0.11);
+-moz-box-shadow: 12px 12px 24px -2px rgba(0,0,0,0.11);
+
 }
 .part {
     margin: 10px;
@@ -169,7 +175,7 @@ margin-bottom: 50px;
 .sectionthree {
     display: flex;
     justify-content: center;
-    background-color: #faf5f3;
+    background-color: #FEFCFB;
    
     /* width: auto; */
     height: 800px;
@@ -215,7 +221,7 @@ box-shadow: 2px -2px 112px 2px rgba(0,0,0,0.16);
 .card {
     width: 270px;
     height: 425px;
-    border: 2px solid #afafaf;
+    border: 2px solid #e8e7e7;
     border-radius: 10px;
     
 }
@@ -386,8 +392,9 @@ align-items: center;
 .c2 {
   width: 100%;
   padding: 20px;
-  background-color: #ededed;
+  background-color: white;
   border-radius: 10px;
+  border: 2px solid #e8e7e7;
 
   position: relative;
   z-index: 1;
@@ -405,7 +412,7 @@ align-items: center;
 .sectionsix {
      display: flex;
     justify-content: center;
-    background-color: #faf5f3;
+    background-color: #FEFCFB;
 }
 .cards6 {
   display: flex;
@@ -469,7 +476,7 @@ background-color: #FA7436;
 .sectionseven {
      display: flex;
     justify-content: center;
-    background-color: #faf5f3;
+    background-color: #FEFCFB;
 }
 .round-img {
   position: absolute;
@@ -481,7 +488,7 @@ background-color: #FA7436;
       display: flex;
     justify-content:center;
     gap: 100px;
-    background-color: #faf5f3;
+    background-color: #FEFCFB;
 }
 .icons {
   display: flex;
@@ -514,19 +521,21 @@ background-color: #FA7436;
 .lastline {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
-  
+  width: 1150px;
+  margin-bottom: 20px;
 }
 .footer hr {
   border: none;
   border-top: 1px solid #d3d3d3;
-  margin: 20px 0;
+ 
   width: 100%;
 }
 .footer ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  font-size: 16px; color: #666666 ;
+  margin: 0 ;
+
 }
 
 
@@ -541,4 +550,8 @@ background-color: #FA7436;
 .btn2:hover {
   background-color: #fc8650;
   cursor: pointer;
+}
+.l1 {
+  text-align: left;
+
 }
